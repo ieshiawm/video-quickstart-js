@@ -43,6 +43,37 @@ Next, we need to install our dependencies from npm:
 npm install
 ```
 
+While attempting to run the npm install command the following error occured:
+npm can't find package.json
+This issue was resolved by running the following:
+
+```bash
+npm init
+```
+
+## Creating the package.JSON file
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (PCName) npm.json
+version: (1.0.0) 6.14.13
+description: npm.json as created in the command line for npm version 6.14.13
+entry point: (index.js) index.js
+test command: npm --help
+git repository: yourGit/video-quickstart-js
+keywords: npm json 6.14.13
+author: firstName lastName
+license: (ISC)
+About to write to C:\Usrs\PCName\package.json:
+
 ## Running The Application
 
 Now we should be all set! Run the application:
