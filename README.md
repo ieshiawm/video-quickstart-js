@@ -63,15 +63,25 @@ Use `npm install <pkg>` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
+
 package name: (PCName) npm.json
+
 version: (1.0.0) 6.14.13
+
 description: npm.json as created in the command line for npm version 6.14.13
+
 entry point: (index.js) index.js
+
 test command: npm --help
+
 git repository: yourGit/video-quickstart-js
+
 keywords: npm json 6.14.13
+
 author: firstName lastName
+
 license: (ISC)
+
 About to write to C:\Usrs\PCName\package.json:
 
 ## Running The Application
